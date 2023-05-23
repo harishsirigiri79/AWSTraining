@@ -1,0 +1,13 @@
+Creating an Organization on AWS
+1. Login into AWS
+2. Go to AWS Organization dashboard
+3. Created an Organisation with the name myorganization
+4. Went to Organizational unit, created the child units Dev and QA
+5. Went to AWS accounts page and invited Pranathi with AWS account number
+6. Invited Vaibhav using a email
+7. Navigated to Service control policies and Added new policy for the organization
+8. Create the policy with reads3policy
+9. Edited the policy and placed deny for S3 write
+10. Attached the SCP to the organizational unit QA 
+11. Logged in with Pranathi who is assigned to DEv and checked all the access
+12. Logged in the Vaibhav to check the only QA access, ready only
